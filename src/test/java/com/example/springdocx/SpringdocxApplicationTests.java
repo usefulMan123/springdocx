@@ -1,23 +1,18 @@
 package com.example.springdocx;
 
-import com.example.springdocx.dto.ItemType;
 import com.example.springdocx.dto.Person;
 import com.example.springdocx.dto.TableDto;
 import com.example.springdocx.util.DynamicWord;
 import com.example.springdocx.util.InsertExcelByKeyInWord;
-import com.example.springdocx.util.WordUtils;
 import com.example.springdocx.util.ZcExcelUtil;
-import com.spire.pdf.tables.PdfTableDataSourceType;
 import org.apache.poi.POIXMLDocument;
 import org.apache.poi.xwpf.usermodel.XWPFDocument;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.web.multipart.MultipartFile;
 
 import java.io.FileOutputStream;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.CopyOnWriteArrayList;
 
 @SpringBootTest
 class SpringdocxApplicationTests {
